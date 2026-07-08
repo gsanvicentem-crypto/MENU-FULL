@@ -3,35 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Primera Página Web</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f9;
-            color: #333;
-            text-align: center;
-            padding: 50px;
-        }
-        h1 {
-            color: #007bff;
-        }
-        .container {
-            background: white;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-            max-width: 600px;
-            margin: 0 auto;
-        }
-    </style>
+    <title>Menú Digital - Mi Restaurante</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <div class="container">
-        <h1>¡Hola Mundo desde GitHub Pages!</h1>
-        <p>Esta es mi primera página web creada completamente desde cero.</p>
-        <p>A partir de aquí, puedo empezar a construir lo que yo quiera.</p>
-    </div>
+    <header>
+        <div class="logo-placeholder">🍽️</div>
+        <h1>Nombre de tu Restaurante</h1>
+        <p class="subtitulo">Sabores artesanales en tu mesa</p>
+    </header>
+
+    <main class="menu-container">
+        
+        <section class="categoria">
+            <h2>Pica Pica / Entradas</h2>
+            
+            <div class="plato">
+                <div class="detalles">
+                    <h3>Papas Bravas</h3>
+                    <p class="descripcion">Papas rústicas crujientes con nuestra icónica salsa picante casera y alioli.</p>
+                </div>
+                <span class="precio">$4.500</span>
+            </div>
+
+            <div class="plato">
+                <div class="detalles">
+                    <h3>Tequeños de Queso</h3>
+                    <p class="descripcion">5 unidades de deditos de masa crujiente rellenos de queso llanero derretido.</p>
+                </div>
+                <span class="precio">$5.200</span>
+            </div>
+        </section>
+
+        <section class="categoria">
+            <h2>Platos Fuertes</h2>
+            
+            <div class="plato">
+                <div class="detalles">
+                    <h3>Burger Premium</h3>
+                    <p class="descripcion">180g de carne de res, queso cheddar, panceta ahumada, cebolla caramelizada y aderezo especial.</p>
+                </div>
+                <span class="precio">$8.900</span>
+            </div>
+
+            <div class="plato">
+                <div class="detalles">
+                    <h3>Milanesa con Papas</h3>
+                    <p class="descripcion">Clásica milanesa de carne de res o pollo acompañada de papas fritas bastón.</p>
+                </div>
+                <span class="precio">$7.500</span>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>⚠️ Si tienes alguna alergia alimentaria, por favor infórmalo a nuestro personal.</p>
+        <p>© 2026 Tu Restaurante. Todos los derechos reservados.</p>
+    </footer>
 
 </body>
 </html>
